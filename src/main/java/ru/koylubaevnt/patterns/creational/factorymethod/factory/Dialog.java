@@ -1,0 +1,25 @@
+package ru.koylubaevnt.patterns.creational.factorymethod.factory;
+
+import ru.koylubaevnt.patterns.creational.factorymethod.buttons.Button;
+
+/**
+ * Базовый класс фабрики. Заметьте, что "фабрика" – это всего лишь
+ * дополнительная роль для класса. Он уже имеет какую-то бизнес-логику, в
+ * которой требуется создание разнообразных продуктов.
+ */
+public abstract class Dialog {
+
+    public void renderWindow() {
+        // ... остальной код диалога ...
+
+        Button okButton = createButton();
+        okButton.render();
+    }
+
+    /**
+     * Подклассы будут переопределять этот метод, чтобы создавать конкретные
+     * объекты продуктов, разные для каждой фабрики.
+     */
+    protected abstract Button createButton();
+
+}
