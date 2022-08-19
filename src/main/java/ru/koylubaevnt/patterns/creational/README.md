@@ -6,3 +6,4 @@
 ## Список
 
 * [Фабричный метод](factorymethod/README.md)
+* [Абстрактная фабрика](abstractfactory/README.md)
