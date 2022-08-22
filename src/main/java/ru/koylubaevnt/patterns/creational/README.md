@@ -10,3 +10,4 @@
 * [Строитель](builder/README.md)
 * [Прототип](prototype/README.md)
 * [Одиночка](singleton/README.md)
+* [Объектный пул](objectpool/README.md)
