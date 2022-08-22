@@ -8,3 +8,4 @@
 * [Фабричный метод](factorymethod/README.md)
 * [Абстрактная фабрика](abstractfactory/README.md)
 * [Строитель](builder/README.md)
+* [Прототип](prototype/README.md)
