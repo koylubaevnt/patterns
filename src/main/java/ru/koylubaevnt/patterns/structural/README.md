@@ -7,3 +7,4 @@
 
 * [Адаптер](./adapter/README.md)
 * [Мост](./bridge/README.md)
+* [Компоновщик](./composite/README.md)
