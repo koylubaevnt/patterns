@@ -9,3 +9,4 @@
 * [Мост](./bridge/README.md)
 * [Компоновщик](./composite/README.md)
 * [Декоратор](./decorator/README.md)
+* [Фасад](./facade/README.md)
